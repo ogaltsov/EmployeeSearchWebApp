@@ -10,14 +10,18 @@ public class AppMain {
     public static void main(String[] args) {
         System.out.println("Hibernate tutorial");
 
-        EmployeeController ctr = new EmployeeController(new ObjectDao());
+        EmployeeController ctr = new EmployeeController(new EmployeeDao());
         SearchQuery searchQuery = new SearchQuery();
-        searchQuery.setFirstName("N43ick");
-        searchQuery.setSecondName("4V3N");
-        searchQuery.setPosition("hr43");
-        searchQuery.setDepartment("H43R");
+//        searchQuery.setFirstName("N43ick");
+//        searchQuery.setSecondName("4V3N");
+         // searchQuery.setPosition("hr43");
+          searchQuery.setDepartment("HR");
 
-        System.out.println(ctr.checkUser(searchQuery));
+        EmployeeDao dao = new EmployeeDao();
+
+        System.out.println(dao.searchEmployee(searchQuery));
+        dao.shutdown();
+
 
     }
 }

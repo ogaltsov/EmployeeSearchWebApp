@@ -16,5 +16,5 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
-    <bean id="dao" class="dao.ObjectDao"/>
+    <bean id="dao" class="dao.EmployeeDao"/>
 </beans>

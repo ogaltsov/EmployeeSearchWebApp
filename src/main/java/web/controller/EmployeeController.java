@@ -1,5 +1,6 @@
 package web.controller;
 
+import dao.EmployeeDao;
 import dao.ObjectDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -8,10 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
-import web.model.Employee;
 import web.model.SearchQuery;
-
-import java.util.ArrayList;
 import java.util.List;
 
 
@@ -19,10 +17,10 @@ import java.util.List;
 @RequestMapping("/search")
 public class EmployeeController {
     @Autowired
-    private ObjectDao dao;
+    private EmployeeDao dao;
 
     /////
-    public EmployeeController(ObjectDao dao){
+    public EmployeeController(EmployeeDao dao){
         this.dao=dao;
     }
 
@@ -44,7 +42,6 @@ public class EmployeeController {
     @RequestMapping(value = "/check", method = RequestMethod.GET)
     public @ResponseBody
     List checkUser(@ModelAttribute("searchQuery") SearchQuery searchQuery) {
-        return dao.selectFromWhere(searchQuery.getFirstName(), searchQuery.getSecondName(),
-                            searchQuery.getPosition(), searchQuery.getDepartment());
+        return dao.searchEmployee(searchQuery);
     }
 }
