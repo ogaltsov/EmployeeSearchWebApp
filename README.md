@@ -13,6 +13,10 @@ using Hibernate(SQLite)
 * Script recieve JSON and form the table
 
 _______________________________________________
+###### To run application:
+* Config facets
+* Deploy **.war** on Tomcat etc.
+_______________________________________________
 ###### To do:
 * Replace specific implementations with interfaces
 * Handle possible exceptions(server-side, JS, HTML-inection)
