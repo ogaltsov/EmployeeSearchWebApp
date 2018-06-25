@@ -7,9 +7,9 @@ Searches for an employee and displays the search result:
 
 ###### Realization:
 * Spring MVC provide main page
-* JS script form AJAX request to server
+* JS script form AJAX request to server(jQuery)
 * Server generate JSON with list of employee
-using Hibernate
+using Hibernate(SQLite)
 * Script recieve JSON and form the table
 
 _______________________________________________
