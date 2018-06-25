@@ -10,7 +10,7 @@ Searches for an employee and displays the search result:
 * JS script form AJAX request to server
 * Server generate JSON with list of employee
 using Hibernate
-* Script reciev JSON and form the table
+* Script recieve JSON and form the table
 
 _______________________________________________
 ###### To do:
