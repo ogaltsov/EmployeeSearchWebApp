@@ -20,5 +20,6 @@ _______________________________________________
 ###### To do:
 * Replace specific implementations with interfaces
 * Handle possible exceptions(server-side, JS, HTML-inection)
+* Case-insensitive search
 * Create messages for wrong search request("null-form", "there are no employee")
 * Correct H2 in main page
