@@ -7,9 +7,8 @@
         <property name="connection.url">jdbc:sqlite:/Applications/IntelliJ IDEA.app/Contents/bin/employees.sqlite</property>
         <property name="dialect">com.enigmabridge.hibernate.dialect.SQLiteDialect</property>
         <property name="connection.driver_class">org.sqlite.JDBC</property>
-        <property name="connection.pool_size">1</property>
+        <property name="connection.pool_size">8</property>
         <property name="hibernate.c3p0.timeout">0</property>
-        <mapping class="dao.entity.SqliteMasterEntity"/>
         <mapping resource="EmployeesEntity.hbm.xml"/>
         <mapping class="dao.entity.EmployeesEntity"/>
         <!-- <property name="connection.username"/> -->
