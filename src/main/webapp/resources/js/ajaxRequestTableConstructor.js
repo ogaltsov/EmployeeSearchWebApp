@@ -2,8 +2,6 @@ var myList = [{}];
 var arr = [{}];
 var url = "http://localhost:8080/corpsite.com/check";
 
-    
-
 function ajaxRequest(selector) {
 
     var firstName = $("#firstName").val();
@@ -11,26 +9,35 @@ function ajaxRequest(selector) {
     var position = $("#position").val();
     var department = $("#department").val();
 
+    var arrOfInput =  [firstName,secondName,position, department];
+
     var TBody = document.getElementById("tableBody");
     TBody.innerHTML = "";
 
     $(document).ready(function() {
-        $.ajax({
-            url: url + "?"+"firstName="+firstName+"&secondName="+secondName+"&position="+position+"&department="+department
-        }).then(function(data) {
-            //
-            console.log(url);
-            console.log(firstName,secondName,position,department);
-            console.log(data);
-            //
-            arr = data.jsonArray;
+        if(isArrEmpty(arrOfInput).length>0) {
+            document.getElementById('msgInput').style.display ='none';
+            $.ajax({
+                url: url + "?" + "firstName=" + firstName + "&secondName=" + secondName + "&position=" + position + "&department=" + department
+            }).then(function (data) {
+                //
+                console.log(arrOfInput);
+                console.log(url);
+                console.log(firstName, secondName, position, department);
+                console.log(data);
+                //
+                arr = data.jsonArray;
 
-            console.log(arr);
-            console.log(myList);
-            myList=arr;
-            console.log(myList);
-            buildHtmlTable(selector)
-        });
+                console.log(arr);
+                console.log(myList);
+                myList = arr;
+                console.log(myList);
+                buildHtmlTable(selector)
+            });
+        }
+        else {
+            document.getElementById('msgInput').style.display ='block';
+        }
     });
     return false;
 }
@@ -73,4 +80,10 @@ function addAllColumnHeaders(myList, selector) {
     $(selector).append(headerTr$);
 
     return columnSet;
+}
+
+function isArrEmpty(array){
+    return array.filter(function(line) {
+        return line.length>1;
+    });
 }

@@ -23,7 +23,7 @@
         <h1>Search for company employees</h1>
         <p class="lead">Enter information about employee and the search returns matches</p>
         <div align="center" class="form-inline">
-            <form>
+            <form class="form" id="form">
                 <input type=text class="form-control input-lg" id="firstName" placeholder="First name">
                 <input type="text" class="form-control input-lg" id="secondName" placeholder="Second name">
                 <input type="text" class="form-control input-lg" id="position" placeholder="Position">
@@ -35,6 +35,9 @@
             </form>
         </div>
 
+        <div >
+            <label id="msgInput" class="msgInput">You entered nothing!</label>
+        </div>
         <div class="resultTableDiv" id="resultTableDiv">
             <table id="excelDataTable" class="table" border="0">
                 <tbody id="tableBody">

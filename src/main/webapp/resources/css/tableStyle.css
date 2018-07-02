@@ -1,3 +1,11 @@
 div.resultTableDiv {
     padding: 40px 150px;
 }
+
+label.msgInput {
+    display: none;
+    padding: 80px 150px;
+    color: #e00000;
+    font-size: 16pt;
+    font-weight: normal;
+}
