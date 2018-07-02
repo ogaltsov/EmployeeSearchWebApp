@@ -20,6 +20,20 @@
                     <target>8</target>
                 </configuration>
             </plugin>
+
+            <plugin>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>9.4.11.v20180605</version>
+
+                <configuration>
+                    <scanIntervalSeconds>10</scanIntervalSeconds>
+                    <webApp>
+                        <contextPath>/corpsite.com</contextPath>
+                    </webApp>
+                </configuration>
+
+            </plugin>
         </plugins>
     </build>
 

@@ -8,8 +8,8 @@ import java.io.*;
 public class EmployeesEntityGenerator {
     String[] fName;
     String[] sName;
-    String[] position={"Programmer","HR","Analyst","Director","Secretary","Architector","Teamlead","Administrator"};
-    String[] department={"HR", "Security", "Software", "IT", "Administration","Finance","PR"};
+    String[] position={"Programmer","Hr","Analyst","Director","Secretary","Architector","Teamlead","Administrator"};
+    String[] department={"Hr", "Security", "Software", "It", "Administration","Finance","Pr"};
 
 
     public static void main(String[] args) throws IOException {

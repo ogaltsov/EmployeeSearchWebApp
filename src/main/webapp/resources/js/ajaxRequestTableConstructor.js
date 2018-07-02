@@ -1,6 +1,8 @@
 var myList = [{}];
 var arr = [{}];
-var url = "http://localhost:8080/HibernateStudy-1.0-SNAPSHOT/search/check";
+var url = "http://localhost:8080/corpsite.com/check";
+
+    
 
 function ajaxRequest(selector) {
 

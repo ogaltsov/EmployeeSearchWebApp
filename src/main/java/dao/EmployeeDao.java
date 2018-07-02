@@ -11,11 +11,11 @@ import web.model.SearchQuery;
 import javax.persistence.PersistenceException;
 import java.io.Serializable;
 import java.util.List;
+import static util.SearchCaseInsensitive.*;
 
 public class EmployeeDao {
 
     private SessionFactory sessionFactory = HibernateSessionFactory.getSessionFactory();
-    private boolean isFirst = true;
 
     public void saveObject(Object object) {
         try {
@@ -61,21 +61,33 @@ public class EmployeeDao {
         }
     }
 
-    public List searchEmployee(SearchQuery searchQuery) {
+    public List searchEmployee(SearchQuery sQuery) {
         try {
             Session session = sessionFactory.openSession();
             session.beginTransaction();
             Criteria criteria = session.createCriteria(EmployeesEntity.class);
 
 
-            if (!searchQuery.getFirstName().isEmpty())
-                criteria = criteria.add(Restrictions.eq("firstName", searchQuery.getFirstName()));
-            if (!searchQuery.getSecondName().isEmpty())
-                criteria = criteria.add(Restrictions.eq("secondName", searchQuery.getSecondName()));
-            if (!searchQuery.getPosition().isEmpty())
-                criteria = criteria.add(Restrictions.eq("position", searchQuery.getPosition()));
-            if (!searchQuery.getDepartment().isEmpty())
-                criteria = criteria.add(Restrictions.eq("department", searchQuery.getDepartment()));
+            if (!sQuery.getFirstName().isEmpty())
+                criteria = criteria.add(Restrictions
+                        .or(Restrictions.eq("firstName", caseInsensitive(sQuery.getFirstName())),
+                            Restrictions.eq("firstName", sQuery.getFirstName())));
+
+            if (!sQuery.getSecondName().isEmpty())
+                criteria = criteria.add(Restrictions
+                        .or(Restrictions.eq("secondName", caseInsensitive(sQuery.getSecondName())),
+                            Restrictions.eq("secondName", sQuery.getSecondName())));
+
+            if (!sQuery.getPosition().isEmpty())
+                criteria = criteria.add(Restrictions
+                        .or(Restrictions.eq("position", caseInsensitive(sQuery.getPosition())),
+                            Restrictions.eq("position", sQuery.getPosition())));
+
+            if (!sQuery.getDepartment().isEmpty())
+                criteria = criteria.add(Restrictions
+                        .or(Restrictions.eq("department", caseInsensitive(sQuery.getDepartment())),
+                            Restrictions.eq("department", sQuery.getDepartment())));
+
 
             List list = criteria.list();
             session.getTransaction().commit();
