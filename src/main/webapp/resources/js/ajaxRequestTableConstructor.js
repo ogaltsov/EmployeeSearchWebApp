@@ -1,6 +1,6 @@
 var myList = [{}];
 var arr = [{}];
-var url = "http://localhost:8080/corpsite.com/check";
+var url = "http://localhost:8080/corpsite.com/search/check";
 
 function ajaxRequest(selector) {
 

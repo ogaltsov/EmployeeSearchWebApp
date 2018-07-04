@@ -27,10 +27,10 @@
                 <nav id="navigation">
                     <ul id="mainnav">
                         <li><a href="/corpsite.com/">MAIN</a></li>
-                        <li><a href="/corpsite.com/">NEWS</a></li>
+                        <li><a href="">NEWS</a></li>
                         <li><a href="/corpsite.com/search/">EMPLOYEES</a></li>
-                        <li><a href="/corpsite.com/">REQUESTS</a></li>
-                        <li><a href="/corpsite.com/">CONTACTS</a></li>
+                        <li><a href="">REQUESTS</a></li>
+                        <li><a href="">CONTACTS</a></li>
                         <c:if test="${pageContext.request.userPrincipal.name == null}">
                             <li><a class="current" href="/corpsite.com/user/">LOGIN</a></li>
                         </c:if>
@@ -105,55 +105,9 @@
 
         <footer id="footer">
             <div class="double-separator"></div>
-            <div id="topfooter">
-                <div class="one-fourth">
-                    <h3>A Few Words About Us</h3>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                </div><!--end one-fourth-->
-                <div class="one-fourth">
-                    <h3>Twitter Updates</h3>
-                    <div class="tweet"></div>
-                </div><!--end one-fourth-->
-                <div class="one-fourth">
-                    <h3>Flickr Inspiration</h3>
-                    <ul id="flickr" class="thumbs"></ul>
-                </div><!--end one-fourth-->
-                <div class="one-fourth column-last">
-                    <h3>Get in Touch with Us</h3>
-                    <p>Address:
-                        1600 Amphitheatre Parkway <br />
-                        Mountain View, CA 94043</p>
-                    <p>Phone: +321 123 456 7 </p>
-                    <p>E-mail: <a href="mailto:">johndoe@ipsum.com</a><br />
-                </div><!--end one-fourth-->
-            </div><!--end topfooter-->
+        </footer>
 
-            <div id="bottomfooter">
-                <div class="one-half">
-                    <p>Copyright &copy; 2012 - Haze | All Rights Reserved</p>
-                </div><!--end one-half-->
 
-                <div class="one-half column-last">
-                    <ul id="social">
-                        <li><a class="rss" href="#">RSS Feed</a></li>
-                        <li><a class="facebook" href="#">Facebook</a></li>
-                        <li><a class="twitter" href="#">Twitter</a></li>
-                        <li><a class="flickr" href="#">Flickr</a></li>
-                        <li><a class="google" href="#">Google</a></li>
-
-                        <!-- You can add social icons for forrst, dribbble, vimeo, linkedin and skype. Take the ones you need from the list and paste them above
-
-                            <li><a class="forrst" href="#">Forrst</a></li>
-                            <li><a class="dribbble" href="#">Dribbble</a></li>
-                            <li><a class="vimeo" href="#">Vimeo</a></li>
-                            <li><a class="linkedin" href="#">LinkedIn</a></li>
-                            <li><a class="skype" href="#">Skype</a></li>
-                        -->
-                    </ul>
-                </div><!--end one-half-->
-                <a href="#" class="totop">scroll to top</a>
-            </div><!--end bottomfooter-->
-        </footer><!--end footer-->
 
     </div><!--end centered-wrapper-->
 </div>
