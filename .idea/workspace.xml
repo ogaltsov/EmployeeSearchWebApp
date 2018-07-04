@@ -7,197 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58b21fe8-e451-41d6-afcc-88e5ffbd93ac" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/arrow-next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/arrow-prev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/blogimage1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/blogimage2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/blogimage3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/breadcrumb-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/buttons/button-small-black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/buttons/button-small-bluemarin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/buttons/button-small-green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/buttons/button-small-rose.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/buttons/button-small-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/buttons/button-small-yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/caption-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/cross-button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic1-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic10-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic11-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic12-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic13-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic14-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic2-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic3-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic4-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic5-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic6-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic7-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic8-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic9-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/gallery/pic9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/lightbox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/link.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/list-arrow-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/list-okay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/list-star-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/list-ui-radio-button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/member.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/minus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/next-horizontal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/nivo-preloader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/nivo-preloaders.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/pagination.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/portfolio/pic1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/portfolio/pic10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/portfolio/pic11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/portfolio/pic12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/portfolio/pic2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/portfolio/pic3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/portfolio/pic4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/portfolio/pic5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/portfolio/pic6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/portfolio/pic7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/portfolio/pic8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/portfolio/pic9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/dark_rounded/btnNext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/dark_rounded/btnPrevious.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/dark_rounded/contentPattern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/dark_rounded/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/dark_rounded/sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/dark_square/btnNext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/dark_square/btnPrevious.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/dark_square/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/dark_square/sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/default/default_thumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/default/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/default/sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/default/sprite_next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/default/sprite_prev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/default/sprite_x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/default/sprite_y.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/facebook/btnNext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/facebook/btnPrevious.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/facebook/contentPatternBottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/facebook/contentPatternLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/facebook/contentPatternRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/facebook/contentPatternTop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/facebook/default_thumbnail.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/facebook/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/facebook/sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/light_rounded/btnNext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/light_rounded/btnPrevious.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/light_rounded/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/light_rounded/sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/light_square/btnNext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/light_square/btnPrevious.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prettyPhoto/light_square/sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/prev-horizontal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/services/balloon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/services/book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/services/briefcase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/services/camera-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/services/camera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/services/compact-disc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/services/exposur.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/services/eye.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/services/films.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/services/globe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/services/headphones.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/services/mail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/services/paper.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/services/pencil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/services/pizza.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/services/shopping.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/services/society.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/services/water.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/slide1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/slide2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/slide3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/slide4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/slide5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/social/dribbble.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/social/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/social/flickr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/social/forrst.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/social/google.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/social/linkedin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/social/rss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/social/skype.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/social/twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/social/vimeo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/subnav-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/team-facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/team-linkedin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/team-twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/tick-button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/images/top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/js/hoverIntent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/js/jflickrfeed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/js/jquery-1.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/js/jquery.contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/js/jquery.jcarousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/js/jquery.masonry.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/js/jquery.nivo.slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/js/jquery.preloadify.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/js/jquery.prettyPhoto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/js/jquery.quicksand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/js/jquery.tweet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/js/slides.min.jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/js/superfish.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/trsh/css/prettyPhoto.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/trsh/css/superfish.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/trsh/fonts/museo/Museo300-Regular-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/trsh/fonts/museo/Museo300-Regular-webfont.eot@" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/trsh/fonts/museo/Museo300-Regular-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/trsh/fonts/museo/Museo300-Regular-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/trsh/fonts/museo/Museo300-Regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/trsh/fonts/museo/Museo500-Regular-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/trsh/fonts/museo/Museo500-Regular-webfont.eot@" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/trsh/fonts/museo/Museo500-Regular-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/trsh/fonts/museo/Museo500-Regular-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/trsh/fonts/museo/Museo500-Regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/trsh/fonts/museo/Museo700-Regular-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/trsh/fonts/museo/Museo700-Regular-webfont.eot@" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/trsh/fonts/museo/Museo700-Regular-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/trsh/fonts/museo/Museo700-Regular-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/trsh/fonts/museo/Museo700-Regular-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/64f4be4e-ad60-497d-898c-9690a56d7878.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/64f4be4e-ad60-497d-898c-9690a56d7878.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/User.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/redirectToUserPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/haze/team.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/spring/spring-database.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/EmployeeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/entity/EmployeesEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/generator/EmployeesEntityGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/generator/EmployeesEntityGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/EmployeeSearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/EmployeeSearchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/model/ListToJsonArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/ListToJsonArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/EmployeesEntity.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Employee.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userPage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/mainPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/mainPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/searchPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/searchPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/spring/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/spring/spring-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/spring/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/spring/spring-security.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -273,26 +98,49 @@
       <file leaf-file-name="spring-security.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/spring/spring-security.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="55" column="58" lean-forward="true" selection-start-line="55" selection-start-column="58" selection-end-line="55" selection-end-column="58" />
+            <state relative-caret-position="74">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users" pinned="false" current-in-tab="true">
-        <entry file="das://64f4be4e-ad60-497d-898c-9690a56d7878/schema/main/table/users">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmployeeSearchController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/web/controller/EmployeeSearchController.java">
+      <file leaf-file-name="mainPage.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/mainPage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            <state relative-caret-position="408">
+              <caret line="160" column="7" lean-forward="true" selection-end-line="160" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="193" column="27" selection-start-line="193" selection-start-column="27" selection-end-line="193" selection-end-column="27" />
+              <folding>
+                <element signature="e#6387#6412#0#HTML" expanded="true" />
+                <element signature="e#6626#6651#0#HTML" expanded="true" />
+                <element signature="e#6883#6906#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="296" column="1" selection-start-line="296" selection-start-column="1" selection-end-line="296" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/web/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -300,62 +148,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/spring/spring-config.xml">
+      <file leaf-file-name="userPage.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userPage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="210">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDetailsServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/services/UserDetailsServiceImpl.java">
+      <file leaf-file-name="searchPage.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/searchPage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="308">
+              <caret line="32" column="50" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/web/controller/AuthController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HibernateSessionFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/services/HibernateSessionFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/web/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="57" column="58" selection-start-line="57" selection-start-column="58" selection-end-line="57" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/User.hbm.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -371,9 +189,9 @@
         <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="Jsp File" />
         <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -383,6 +201,7 @@
       <find>team</find>
       <find>art</find>
       <find>one</find>
+      <find>logo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -391,7 +210,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/.m2/settings.xml" />
         <option value="$PROJECT_DIR$/src/main/java/services/SearchCaseInsensetive.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/64f4be4e-ad60-497d-898c-9690a56d7878/console_2.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/64f4be4e-ad60-497d-898c-9690a56d7878/console_3.sql" />
@@ -419,29 +237,30 @@
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/web/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/src/main/java/web/controller/MainPageController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/web/controller/AuthController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/fgg.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/haze/css/superfish.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/searchPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/haze/blog.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/haze/style.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/haze/team.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/mainPage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/spring/spring-database.xml" />
         <option value="$PROJECT_DIR$/src/main/java/generator/EmployeesEntityGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/resources/EmployeesEntity.hbm.xml" />
         <option value="64f4be4e-ad60-497d-898c-9690a56d7878/schema/main/table/users/index/sqlite_autoindex_users_1" />
         <option value="$PROJECT_DIR$/src/main/java/web/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/spring/spring-security.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/64f4be4e-ad60-497d-898c-9690a56d7878/console_4.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/User.hbm.xml" />
         <option value="$PROJECT_DIR$/src/main/java/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/services/UserDetailsServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/spring/spring-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/redirectToUserPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/spring/spring-security.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/web/controller/AuthController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/mainPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp" />
       </list>
     </option>
   </component>
@@ -662,11 +481,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/resources/images" />
       <recent name="$PROJECT_DIR$/src/main/webapp/resources/js" />
       <recent name="$PROJECT_DIR$/src/main/webapp/resources/css" />
       <recent name="$PROJECT_DIR$/src/main/webapp/resources/haze" />
       <recent name="$PROJECT_DIR$/src/main/webapp/resources" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages" />
     </key>
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="web.model" />
@@ -857,7 +676,7 @@
       <workItem from="1529915432608" duration="9635000" />
       <workItem from="1530365112532" duration="3720000" />
       <workItem from="1530381648226" duration="2642000" />
-      <workItem from="1530390978954" duration="45063000" />
+      <workItem from="1530390978954" duration="50237000" />
     </task>
     <task id="LOCAL-00001" summary="criteria query">
       <created>1529698352387</created>
@@ -901,15 +720,21 @@
       <option name="project" value="LOCAL" />
       <updated>1530630072176</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="spring security auth(+db+encrypt)&#10;design of pages">
+      <created>1530710965002</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1530710965002</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128885000" />
+    <option name="totallyTimeSpent" value="134059000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5013889" side_tool="true" weight="0.32938388" />
@@ -917,7 +742,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.17310444" />
+      <window_info anchor="right" id="Database" order="3" weight="0.17310444" />
       <window_info id="Structure" order="1" sideWeight="0.50545454" side_tool="true" weight="0.27539343" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info id="UI Designer" order="2" />
@@ -928,13 +753,13 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32969698" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.33939394" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.33939394" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.32969698" />
       <window_info id="Persistence" order="2" sideWeight="0.32281554" side_tool="true" weight="0.16452074" />
       <window_info anchor="bottom" id="Database Console" order="7" sideWeight="0.49861112" weight="0.32848486" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.67718446" visible="true" weight="0.16452074" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.67718446" visible="true" weight="0.16452074" />
       <window_info anchor="right" id="Bean Validation" weight="0.3297568" />
       <window_info id="Web" order="2" sideWeight="0.50094515" side_tool="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49791667" weight="0.3151515" />
@@ -996,7 +821,8 @@
     <MESSAGE value="case-insensitive, jetty" />
     <MESSAGE value="null-input validation" />
     <MESSAGE value="spring security auth" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring security auth" />
+    <MESSAGE value="spring security auth(+db+encrypt)&#10;design of pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring security auth(+db+encrypt)&#10;design of pages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1008,23 +834,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="45" column="60" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/fgg.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/haze/blog.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/haze/css/superfish.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
@@ -1066,25 +875,11 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/haze/typography.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/haze/images/buttons/button-small-black.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/haze/images/buttons/button-small-rose.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/haze/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1107,9 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/haze/team.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1125,56 +917,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/custom.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/searchPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="90" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/controller/MainPageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/controller/AuthController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/mainPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="12" column="115" selection-start-line="12" selection-start-column="115" selection-end-line="12" selection-end-column="115" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.1.Final/hibernate-core-5.3.1.Final.jar!/org/hibernate/Session.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1259,13 +1001,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="57" column="58" selection-start-line="57" selection-start-column="58" selection-end-line="57" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/User.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1293,16 +1028,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/controller/EmployeeSearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/services/UserDetailsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
@@ -1313,6 +1038,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/haze/trsh/fonts/museo/Museo300-Regular-webfont.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="das://64f4be4e-ad60-497d-898c-9690a56d7878/schema/main/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="57" column="58" selection-start-line="57" selection-start-column="58" selection-end-line="57" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/spring/spring-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1320,17 +1062,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/spring/spring-security.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/redirectToUserPage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="55" column="58" lean-forward="true" selection-start-line="55" selection-start-column="58" selection-end-line="55" selection-end-column="58" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="das://64f4be4e-ad60-497d-898c-9690a56d7878/schema/main/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/controller/MainPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/controller/EmployeeSearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/spring/spring-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="296" column="1" selection-start-line="296" selection-start-column="1" selection-end-line="296" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/mainPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="160" column="7" lean-forward="true" selection-end-line="160" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/searchPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="32" column="50" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/tables.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="188" column="22" selection-start-line="188" selection-start-column="22" selection-end-line="188" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="193" column="27" selection-start-line="193" selection-start-column="27" selection-end-line="193" selection-end-column="27" />
+          <folding>
+            <element signature="e#6387#6412#0#HTML" expanded="true" />
+            <element signature="e#6626#6651#0#HTML" expanded="true" />
+            <element signature="e#6883#6906#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

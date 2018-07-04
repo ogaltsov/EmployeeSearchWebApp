@@ -26,17 +26,17 @@
             <div class="three-fourth column-last">
                 <nav id="navigation">
                     <ul id="mainnav">
-                        <li><a href="blog.html">MAIN</a></li>
-                        <li><a href="#">NEWS</a></li>
-                        <li><a href="gallery.html">EMPLOYEES</a></li>
-                        <li><a href="portfolio-four-columns.html">REQUESTS</a></li>
-                        <li><a href="contact.html">CONTACTS</a></li>
+                        <li><a href="/corpsite.com/">MAIN</a></li>
+                        <li><a href="/corpsite.com/">NEWS</a></li>
+                        <li><a href="/corpsite.com/search/">EMPLOYEES</a></li>
+                        <li><a href="/corpsite.com/">REQUESTS</a></li>
+                        <li><a href="/corpsite.com/">CONTACTS</a></li>
                         <c:if test="${pageContext.request.userPrincipal.name == null}">
-                            <li><a class="current" href="/corpsite.com/auth">LOGIN</a></li>
+                            <li><a class="current" href="/corpsite.com/user/">LOGIN</a></li>
                         </c:if>
 
                         <c:if test="${pageContext.request.userPrincipal.name != null}">
-                            <li><a class="current" href="/corpsite.com/user/${pageContext.request.userPrincipal.name}">
+                            <li><a class="current" href="/corpsite.com/user/">
                                     ${pageContext.request.userPrincipal.name}
                             </a></li>
                         </c:if>

@@ -7,7 +7,7 @@
 	http://www.springframework.org/schema/security/spring-security-4.2.xsd">
 
     <http auto-config="true">
-        <intercept-url pattern="/auth**" access="hasRole('ROLE_USER')" />
+        <intercept-url pattern="/user/" access="hasRole('ROLE_USER')" />
         <intercept-url pattern="/search/**" access="hasRole('ROLE_USER')" />
         <intercept-url pattern="/j_spring_security_check" access="hasRole('IS_AUTHENTICATED_ANONYMOUSLY')" />
         <!--<intercept-url pattern="/login**" access="hasRole('IS_AUTHENTICATED_ANONYMOUSLY')" />-->
@@ -15,7 +15,7 @@
         <form-login
                 login-processing-url="/j_spring_security_check"
                 login-page="/login"
-                default-target-url="/auth"
+                default-target-url="/user/"
                 authentication-failure-url="/login?error"
                 username-parameter="username"
                 password-parameter="password" />
@@ -28,30 +28,6 @@
         <csrf/>
     </http>
 
-    <!--<http realm="JavaStudy example" use-expressions="false">-->
-        <!--<intercept-url pattern="/" access="IS_AUTHENTICATED_ANONYMOUSLY"/>-->
-        <!--<intercept-url pattern="/login.jsp*" access="IS_AUTHENTICATED_ANONYMOUSLY"/>-->
-        <!--<intercept-url pattern="/admin" access="ROLE_ADMIN"/>-->
-        <!--<intercept-url pattern="/exitUser*" access="IS_AUTHENTICATED_ANONYMOUSLY"/>-->
-        <!--<intercept-url pattern="/**" access="ROLE_USER"/>-->
-
-        <!--<form-login login-page="/login.jsp"-->
-                    <!--authentication-failure-url="/login.jsp?login_error=1"/>-->
-        <!--<http-basic/>-->
-        <!--<logout logout-success-url="/exitUser.jsp"/>-->
-        <!--<remember-me />-->
-        <!--<headers/>-->
-        <!--<csrf/>-->
-    <!--</http>-->
-
-    <!--<authentication-manager>-->
-        <!--<authentication-provider>-->
-            <!--<jdbc-user-service-->
-                    <!--data-source-ref="">-->
-                <!--&lt;!&ndash;<user name="oleg" password="{noop}123456" authorities="ROLE_USER" />&ndash;&gt;-->
-            <!--</jdbc-user-service>-->
-        <!--</authentication-provider>-->
-    <!--</authentication-manager>-->
 
     <authentication-manager alias="authenticationManager">
         <authentication-provider user-service-ref="userDetailsServiceImpl">

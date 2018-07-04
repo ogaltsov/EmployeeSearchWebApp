@@ -10,18 +10,6 @@ import org.springframework.web.servlet.ModelAndView;
 @RequestMapping
 public class AuthController {
 
-    @RequestMapping(value = "/auth**", method = RequestMethod.GET)
-    public ModelAndView adminPage() {
-
-        ModelAndView model = new ModelAndView();
-        model.addObject("title", "Spring Security Hello World");
-        model.addObject("message", "This is protected page!");
-        model.setViewName("admin");
-
-        return model;
-
-    }
-
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public ModelAndView login(
             @RequestParam(value = "error", required = false) String error,

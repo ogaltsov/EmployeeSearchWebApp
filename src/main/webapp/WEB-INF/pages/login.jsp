@@ -1,10 +1,98 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%--<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>--%>
 
-<html>
+<%--<html>--%>
+<%--<head>--%>
+    <%--<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">--%>
+
+    <%--<title>Login Page</title>--%>
+
+    <%--<style>--%>
+        <%--.error {--%>
+            <%--padding: 15px;--%>
+            <%--margin-bottom: 20px;--%>
+            <%--border: 1px solid transparent;--%>
+            <%--border-radius: 4px;--%>
+            <%--color: #a94442;--%>
+            <%--background-color: #f2dede;--%>
+            <%--border-color: #ebccd1;--%>
+        <%--}--%>
+
+        <%--.msg {--%>
+            <%--padding: 15px;--%>
+            <%--margin-bottom: 20px;--%>
+            <%--border: 1px solid transparent;--%>
+            <%--border-radius: 4px;--%>
+            <%--color: #31708f;--%>
+            <%--background-color: #d9edf7;--%>
+            <%--border-color: #bce8f1;--%>
+        <%--}--%>
+    <%--</style>--%>
+
+<%--</head>--%>
+
+
+
+<%--<body onload='document.loginForm.username.focus();'>--%>
+
+<%--<h1>Spring Security Custom Login Form (XML)</h1>--%>
+
+<%--<div id="login-box">--%>
+
+    <%--<p class="lead">Login with Username and Password</p>--%>
+
+    <%--<c:if test="${not empty error}">--%>
+        <%--<div class="error">${error}</div>--%>
+    <%--</c:if>--%>
+    <%--<c:if test="${not empty msg}">--%>
+        <%--<div class="msg">${msg}</div>--%>
+    <%--</c:if>--%>
+
+    <%--<form class="form" name='loginForm'--%>
+          <%--action="<c:url value='j_spring_security_check'/>" method='POST' role="form">--%>
+
+        <%--<table>--%>
+            <%--<tr>--%>
+                <%--<td>User:</td>--%>
+                <%--<td><input class="form-control input-lg" type='text' name='username' value=''></td>--%>
+            <%--</tr>--%>
+            <%--<tr>--%>
+                <%--<td>Password:</td>--%>
+                <%--<td><input class="form-control input-lg" type='password' name='password' /></td>--%>
+            <%--</tr>--%>
+            <%--<tr>--%>
+                <%--<td colspan='2'><input class="btn btn-lg btn-default" name="submit" type="submit"--%>
+                                       <%--value="submit" /></td>--%>
+            <%--</tr>--%>
+        <%--</table>--%>
+
+        <%--<input type="hidden" name="${_csrf.parameterName}"--%>
+               <%--value="${_csrf.token}" />--%>
+
+    <%--</form>--%>
+<%--</div>--%>
+
+<%--</body>--%>
+<%--</html>--%>
+
+
+
+
+
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <title>Main Page</title>
+
+    <link href="<c:url value="/resources/css/style.css" />" rel="stylesheet" type="text/css" media="screen">
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
-    <title>Login Page</title>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="<c:url value="/resources/js/custom.js"/>"></script>
 
     <style>
         .error {
@@ -30,46 +118,102 @@
 
 </head>
 
+<body>
+<div id="wrapper">
+    <div id="top">
+        <header id="header">
+            <div class="one-fourth">
+                <div class="logo"><a href="/corpsite.com/"><img src="/resources/images/logo.png" alt="" /></a></div>
+            </div><!--end one-fourth-->
+
+            <div class="three-fourth column-last">
+                <nav id="navigation">
+                    <ul id="mainnav">
+                        <li><a href="/corpsite.com/">MAIN</a></li>
+                        <li><a href="/corpsite.com/">NEWS</a></li>
+                        <li><a href="/corpsite.com/search/">EMPLOYEES</a></li>
+                        <li><a href="/corpsite.com/">REQUESTS</a></li>
+                        <li><a href="/corpsite.com/">CONTACTS</a></li>
+                        <c:if test="${pageContext.request.userPrincipal.name == null}">
+                            <li><a class="current" href="/corpsite.com/user/">LOGIN</a></li>
+                        </c:if>
+
+                        <c:if test="${pageContext.request.userPrincipal.name != null}">
+                            <li><a class="current" href="/corpsite.com/user/">
+                                    ${pageContext.request.userPrincipal.name}
+                            </a></li>
+                        </c:if>
+                    </ul>
+                </nav><!--end navigation-->
+            </div><!--end three-fourth-->
+        </header>
+
+        <section class="page-title">
+            <div class="double-separator"></div>
+            <div class="breadcrumbs">
+                <div class="one-half alignleft">
+                    <a href="/corpsite.com/">Home</a>
+                </div>
+
+                <div class="one-half column-last alignright">
+
+                </div>
+            </div><!--end breadcrumbs-->
+            <div class="double-separator"></div>
+        </section>
+    </div><!--end top-->
+
+    <div align="center" class="centered-wrapper">
 
 
-<body onload='document.loginForm.username.focus();'>
+        <div align="center" class="column-last">
+            <div id="login-box" align="center">
 
-<h1>Spring Security Custom Login Form (XML)</h1>
+                <p class="lead">Login with Username and Password</p>
 
-<div id="login-box">
+                <c:if test="${not empty error}">
+                    <div class="error">${error}</div>
+                </c:if>
+                <c:if test="${not empty msg}">
+                    <div class="msg">${msg}</div>
+                </c:if>
 
-    <p class="lead">Login with Username and Password</p>
+                <form class="form" name='loginForm'
+                      action="<c:url value='j_spring_security_check'/>" method='POST' role="form">
 
-    <c:if test="${not empty error}">
-        <div class="error">${error}</div>
-    </c:if>
-    <c:if test="${not empty msg}">
-        <div class="msg">${msg}</div>
-    </c:if>
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td>User:</td>
+                            <td><input class="form-control input-lg" type='text' name='username' value='' style="margin-left: 10px"></td>
+                        </tr>
+                        <tr>
+                            <td>Password:</td>
+                            <td><input class="form-control input-lg" type='password' name='password' style="margin-left: 10px" /></td>
+                        </tr>
+                        <tr>
+                            <td colspan='2'><input  class="btn btn-lg btn-default" name="submit" type="submit"
+                                                   value="LogIn" style="margin-top: 6px"/></td>
+                        </tr>
+                        </tbody>
+                    </table>
 
-    <form class="form" name='loginForm'
-          action="<c:url value='j_spring_security_check'/>" method='POST' role="form">
+                    <input type="hidden" name="${_csrf.parameterName}"
+                           value="${_csrf.token}" />
 
-        <table>
-            <tr>
-                <td>User:</td>
-                <td><input class="form-control input-lg" type='text' name='username' value=''></td>
-            </tr>
-            <tr>
-                <td>Password:</td>
-                <td><input class="form-control input-lg" type='password' name='password' /></td>
-            </tr>
-            <tr>
-                <td colspan='2'><input class="btn btn-lg btn-default" name="submit" type="submit"
-                                       value="submit" /></td>
-            </tr>
-        </table>
+                </form>
+            </div>
+        </div>
 
-        <input type="hidden" name="${_csrf.parameterName}"
-               value="${_csrf.token}" />
+    </div><!--end centered-wrapper-->
 
-    </form>
+    <div class="centered-wrapper">
+
+        <footer id="footer">
+            <div class="double-separator"></div>
+        </footer><!--end footer-->
+
+    </div><!--end centered-wrapper-->
 </div>
-
 </body>
 </html>
