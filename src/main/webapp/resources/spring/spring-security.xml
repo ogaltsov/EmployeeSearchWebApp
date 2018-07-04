@@ -8,6 +8,7 @@
 
     <http auto-config="true">
         <intercept-url pattern="/auth**" access="hasRole('ROLE_USER')" />
+        <intercept-url pattern="/search/**" access="hasRole('ROLE_USER')" />
         <intercept-url pattern="/j_spring_security_check" access="hasRole('IS_AUTHENTICATED_ANONYMOUSLY')" />
         <!--<intercept-url pattern="/login**" access="hasRole('IS_AUTHENTICATED_ANONYMOUSLY')" />-->
 
@@ -18,7 +19,11 @@
                 authentication-failure-url="/login?error"
                 username-parameter="username"
                 password-parameter="password" />
-        <logout logout-success-url="/login?logout" />
+        <logout
+                invalidate-session="true"
+                logout-success-url="/login"
+                logout-url="/logout"/>
+
         <!-- enable csrf protection -->
         <csrf/>
     </http>
@@ -39,12 +44,27 @@
         <!--<csrf/>-->
     <!--</http>-->
 
-    <authentication-manager>
-        <authentication-provider>
-            <user-service>
-                <user name="mkyong" password="{noop}123456" authorities="ROLE_USER" />
-            </user-service>
+    <!--<authentication-manager>-->
+        <!--<authentication-provider>-->
+            <!--<jdbc-user-service-->
+                    <!--data-source-ref="">-->
+                <!--&lt;!&ndash;<user name="oleg" password="{noop}123456" authorities="ROLE_USER" />&ndash;&gt;-->
+            <!--</jdbc-user-service>-->
+        <!--</authentication-provider>-->
+    <!--</authentication-manager>-->
+
+    <authentication-manager alias="authenticationManager">
+        <authentication-provider user-service-ref="userDetailsServiceImpl">
+            <password-encoder ref="encoder"></password-encoder>
         </authentication-provider>
     </authentication-manager>
+
+    <beans:bean id="userDetailsServiceImpl"
+                class="services.UserDetailsServiceImpl"></beans:bean>
+
+    <beans:bean id="encoder"
+                class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder">
+        <beans:constructor-arg name="strength" value="11"/>
+    </beans:bean>
 
 </beans:beans>

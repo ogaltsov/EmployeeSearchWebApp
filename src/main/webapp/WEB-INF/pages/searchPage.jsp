@@ -19,33 +19,33 @@
 
 <body>
 
-    <div class="page" align="center">
-        <h1>Search for company employees</h1>
-        <p class="lead">Enter information about employee and the search returns matches</p>
-        <div align="center" class="form-inline">
-            <form class="form" id="form">
-                <input type=text class="form-control input-lg" id="firstName" placeholder="First name">
-                <input type="text" class="form-control input-lg" id="secondName" placeholder="Second name">
-                <input type="text" class="form-control input-lg" id="position" placeholder="Position">
-                <input type="text" class="form-control input-lg" id="department" placeholder="Department">
+<div class="page" align="center">
+    <h1>Search for company employee</h1>
+    <p class="lead">Enter information about employee and the search returns matches</p>
+    <div align="center" class="form-inline">
+        <form class="form" id="form">
+            <input type=text class="form-control input-lg" id="firstName" placeholder="First name">
+            <input type="text" class="form-control input-lg" id="secondName" placeholder="Second name">
+            <input type="text" class="form-control input-lg" id="position" placeholder="Position">
+            <input type="text" class="form-control input-lg" id="department" placeholder="Department">
 
-                <button type="button" id="bth-search"
-                                class="btn btn-lg btn-default"
-                                onclick="return ajaxRequest('#tableBody')">Search</button>
-            </form>
-        </div>
-
-        <div >
-            <label id="msgInput" class="msgInput">You entered nothing!</label>
-        </div>
-        <div class="resultTableDiv" id="resultTableDiv">
-            <table id="excelDataTable" class="table" border="0">
-                <tbody id="tableBody">
-                </tbody>
-            </table>
-        </div>
-
+            <button type="button" id="bth-search"
+                    class="btn btn-lg btn-default"
+                    onclick="return ajaxRequest('#tableBody')">Search</button>
+        </form>
     </div>
+
+    <div >
+        <label id="msgInput" class="msgInput">You entered nothing!</label>
+    </div>
+    <div class="resultTableDiv" id="resultTableDiv">
+        <table id="excelDataTable" class="table" border="0">
+            <tbody id="tableBody">
+            </tbody>
+        </table>
+    </div>
+
+</div>
 </body>
 </html>
 

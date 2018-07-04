@@ -1,7 +1,7 @@
 package generator;
 
 import dao.EmployeeDao;
-import dao.entity.EmployeesEntity;
+import web.model.Employee;
 
 import java.io.*;
 
@@ -25,15 +25,15 @@ public class EmployeesEntityGenerator {
 
 
         for(int i=0; i<1000; i++){
-            EmployeesEntity employeesEntity = new EmployeesEntity();
-            employeesEntity.setId((short)(1000+i));
-            employeesEntity.setFirstName(generator.fName[(int)(Math.random()*190)]);
-            employeesEntity.setSecondName(generator.sName[(int)(Math.random()*190)]);
-            employeesEntity.setPosition(generator.position[(int) (Math.random()*7)]);
-            employeesEntity.setDepartment(generator.department[(int) (Math.random()*6)]);
-            employeesEntity.setMail(employeesEntity.getFirstName()+employeesEntity.getSecondName()+"@company.com");
+            Employee employee = new Employee();
+            employee.setId((short)(1000+i));
+            employee.setFirstName(generator.fName[(int)(Math.random()*190)]);
+            employee.setSecondName(generator.sName[(int)(Math.random()*190)]);
+            employee.setPosition(generator.position[(int) (Math.random()*7)]);
+            employee.setDepartment(generator.department[(int) (Math.random()*6)]);
+            employee.setMail(employee.getFirstName()+ employee.getSecondName()+"@company.com");
 
-            //dao.saveObject(employeesEntity);
+            //dao.saveObject(employee);
         }
 
     }

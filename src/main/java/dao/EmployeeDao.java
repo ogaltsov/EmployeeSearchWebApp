@@ -1,6 +1,6 @@
 package dao;
 
-import dao.entity.EmployeesEntity;
+import web.model.Employee;
 
 import org.hibernate.Criteria;
 import org.hibernate.Session;
@@ -65,7 +65,7 @@ public class EmployeeDao {
         try {
             Session session = sessionFactory.openSession();
             session.beginTransaction();
-            Criteria criteria = session.createCriteria(EmployeesEntity.class);
+            Criteria criteria = session.createCriteria(Employee.class);
 
 
             if (!sQuery.getFirstName().isEmpty())

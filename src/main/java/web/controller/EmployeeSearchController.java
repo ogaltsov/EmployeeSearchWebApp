@@ -40,8 +40,8 @@ public class EmployeeSearchController {
 
 //    @RequestMapping(value = "/test", method = RequestMethod.GET)
 //    public @ResponseBody
-//    EmployeesEntity checkUserTest(@ModelAttribute SearchQuery searchQuery) {
-//        return (EmployeesEntity) dao.searchEmployee(searchQuery).get(0);
+//    Employee checkUserTest(@ModelAttribute SearchQuery searchQuery) {
+//        return (Employee) dao.searchEmployee(searchQuery).get(0);
 //    }
 
     @RequestMapping(value = "/", method = RequestMethod.GET)

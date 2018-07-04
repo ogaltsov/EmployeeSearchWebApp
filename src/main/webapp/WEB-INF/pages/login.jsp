@@ -26,7 +26,7 @@
             background-color: #d9edf7;
             border-color: #bce8f1;
         }
-        </style>
+    </style>
 
 </head>
 

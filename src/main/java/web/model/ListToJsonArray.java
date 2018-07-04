@@ -1,17 +1,15 @@
 package web.model;
 
-import dao.entity.EmployeesEntity;
-
 import java.util.List;
 
 public class ListToJsonArray {
-        private List<EmployeesEntity> jsonArray;
+        private List<Employee> jsonArray;
 
-        public void setJsonArray(List<EmployeesEntity> jsonArray) {
+        public void setJsonArray(List<Employee> jsonArray) {
             this.jsonArray = jsonArray;
         }
 
-        public List<EmployeesEntity> getJsonArray() {
+        public List<Employee> getJsonArray() {
             return jsonArray;
         }
 
