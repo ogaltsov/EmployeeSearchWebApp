@@ -80,12 +80,13 @@
             color: #a94442;
             background-color: #f2dede;
             border-color: #ebccd1;
+            display: none;
         }
     </style>
 </head>
 
 <body>
-<div class="pageContainer" id="wrapper" style="display: none">
+<div class="pageContainer" id="wrapper">
     <div id="top">
         <header id="header">
             <div class="one-fourth">
