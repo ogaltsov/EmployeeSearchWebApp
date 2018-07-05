@@ -23,4 +23,4 @@ _______________________________________________
 * Case-insensitive search (DONE)
 * Create messages for wrong search request("null-form(DONE)", "there are no employee")
 * main page send number of latest news by AJAX(now it hardcoded 5)
-
+* inject page domain using properties
