@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
+import web.model.Employee;
 import web.model.ListToJsonArray;
 import web.model.SearchQuery;
 
@@ -32,8 +33,8 @@ public class EmployeeSearchController {
 
     @RequestMapping(value = "/check", method = RequestMethod.GET)
     public @ResponseBody
-    ListToJsonArray checkUser(@ModelAttribute("searchQuery") SearchQuery searchQuery) {
-        ListToJsonArray array = new ListToJsonArray();
+    ListToJsonArray<Employee> checkUser(@ModelAttribute("searchQuery") SearchQuery searchQuery) {
+        ListToJsonArray<Employee> array = new ListToJsonArray<>();
         array.setJsonArray(dao.searchEmployee(searchQuery));
         return array;
     }

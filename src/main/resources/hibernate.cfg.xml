@@ -9,10 +9,19 @@
         <property name="connection.driver_class">org.sqlite.JDBC</property>
         <property name="connection.pool_size">8</property>
         <property name="hibernate.c3p0.timeout">0</property>
-        <mapping resource="Employee.hbm.xml"/>
+
         <mapping class="web.model.Employee"/>
+        <mapping resource="Employee.hbm.xml"/>
+
         <mapping class="web.model.User"/>
         <mapping resource="User.hbm.xml"/>
+
+        <mapping class="web.model.News"/>
+        <mapping resource="News.hbm.xml"/>
+
+
+        
+
         <!-- <property name="connection.username"/> -->
         <!-- <property name="connection.password"/> -->
 

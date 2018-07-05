@@ -61,7 +61,7 @@ public class EmployeeDao {
         }
     }
 
-    public List searchEmployee(SearchQuery sQuery) {
+    public List<Employee> searchEmployee(SearchQuery sQuery) {
         try {
             Session session = sessionFactory.openSession();
             session.beginTransaction();
@@ -89,7 +89,7 @@ public class EmployeeDao {
                             Restrictions.eq("department", sQuery.getDepartment())));
 
 
-            List list = criteria.list();
+            List<Employee> list = criteria.list();
             session.getTransaction().commit();
             session.close();
             return list;

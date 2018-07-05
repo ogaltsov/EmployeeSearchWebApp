@@ -26,7 +26,7 @@ public class EmployeesEntityGenerator {
 
         for(int i=0; i<1000; i++){
             Employee employee = new Employee();
-            employee.setId((short)(1000+i));
+            employee.setId(1000+i);
             employee.setFirstName(generator.fName[(int)(Math.random()*190)]);
             employee.setSecondName(generator.sName[(int)(Math.random()*190)]);
             employee.setPosition(generator.position[(int) (Math.random()*7)]);

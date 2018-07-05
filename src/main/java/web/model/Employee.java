@@ -5,7 +5,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "employees", schema = "main")
 public class Employee {
-    private Short id;
+    private Integer id;
     private String firstName;
     private String secondName;
     private String position;
@@ -14,11 +14,11 @@ public class Employee {
 
     @Id
     @Column(name = "id")
-    public Short getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Short id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

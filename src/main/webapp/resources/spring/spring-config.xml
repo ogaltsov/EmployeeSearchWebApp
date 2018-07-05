@@ -19,6 +19,7 @@
 
     <bean id="userDao" class="dao.UserDao" />
     <bean id="dao" class="dao.EmployeeDao"/>
+    <bean id="newsDao" class="dao.NewsDao" />
 
 
 

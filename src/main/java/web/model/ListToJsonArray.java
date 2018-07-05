@@ -2,14 +2,14 @@ package web.model;
 
 import java.util.List;
 
-public class ListToJsonArray {
-        private List<Employee> jsonArray;
+public class  ListToJsonArray<T> {
+        private List<T> jsonArray;
 
-        public void setJsonArray(List<Employee> jsonArray) {
+        public void setJsonArray(List<T> jsonArray) {
             this.jsonArray = jsonArray;
         }
 
-        public List<Employee> getJsonArray() {
+        public List<T> getJsonArray() {
             return jsonArray;
         }
 

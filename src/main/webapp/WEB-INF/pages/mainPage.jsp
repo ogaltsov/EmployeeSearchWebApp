@@ -11,6 +11,7 @@
 
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="<c:url value="/resources/js/ajaxRequestNews.js" />"></script>
     <script src="<c:url value="/resources/js/custom.js"/>"></script>
 
 </head>
@@ -61,44 +62,52 @@
     </div><!--end top-->
 
     <div class="centered-wrapper">
-
-
+        <%--==================      NEWS START      ========================================--%>
+        <%--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++--%>
         <div class="three-fourth column-last">
             <ul id="team">
+
                 <!---->
                 <li class="team-member">
                     <div class="team-text">
-                        <h3>Patrick Smith </h3>
-                        <p style="font-size: 10pt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Concordi fabricata ait regem Ardalio nos comitem in deinde cepit roseo ruens sed dominum oculos. Hanc nec caecatus dum est Apollonius.</p>
+                        <h3 id="newsTitle0"></h3>
+                        <p id="newsText0" style="font-size: 10pt"></p>
                     </div>
                 </li><!--end team-member-->
                 <!---->
 
                 <li class="team-member">
                     <div class="team-text">
-                        <h3>John Doe </h3>
-                        <p style="font-size: 10pt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Concordi fabricata ait regem Ardalio nos comitem in deinde cepit roseo ruens sed dominum oculos. Hanc nec caecatus dum est Apollonius.</p>
+                        <h3 id="newsTitle1"></h3>
+                        <p id="newsText1" style="font-size: 10pt"></p>
+                    </div>
+                </li><!--end team-member-->
+
+                <li class="team-member">
+                <div class="team-text">
+                    <h3 id="newsTitle2"></h3>
+                    <p id="newsText2" style="font-size: 10pt"></p>
+                </div>
+                </li><!--end team-member-->
+
+                <li class="team-member">
+                    <div class="team-text">
+                        <h3 id="newsTitle3"></h3>
+                        <p id="newsText3" style="font-size: 10pt"></p>
                     </div>
                 </li><!--end team-member-->
 
                 <li class="team-member">
                     <div class="team-text">
-                        <h3>Kate Taylor </h3>
-                        <p style="font-size: 10pt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Concordi fabricata ait regem Ardalio nos comitem in deinde cepit roseo ruens sed dominum oculos. Hanc nec caecatus dum est Apollonius.</p>
-                    </div>
-                </li><!--end team-member-->
-
-                <li class="team-member">
-                    <div class="team-text">
-                        <h3>Patrick Smith </h3>
-                        <p style="font-size: 10pt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Concordi fabricata ait regem Ardalio nos comitem in deinde cepit roseo ruens sed dominum oculos. Hanc nec caecatus dum est Apollonius.</p>
+                        <h3 id="newsTitle4"></h3>
+                        <p id="newsText4" style="font-size: 10pt"></p>
                     </div>
                 </li><!--end team-member-->
                 <!---->
 
             </ul>
         </div>
-
+        <%--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++--%>
     </div><!--end centered-wrapper-->
 
     <div class="centered-wrapper">
