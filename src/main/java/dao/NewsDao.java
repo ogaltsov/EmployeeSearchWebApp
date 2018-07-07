@@ -18,4 +18,10 @@ public class NewsDao {
         session.close();
         return list;
     }
+
+    public News getNewsById(Integer newsId){
+        Session session = sessionFactory.openSession();
+        News news = session.get(News.class, newsId);
+        return news;
+    }
 }

@@ -11,7 +11,8 @@ $(document).ready(function() {
 
 function buildLatestNewsFlow(data) {
     var titleId = "#newsTitle";
-    var textId = "#newsText"
+    var textId = "#newsText";
+    var dateId = "newsDate";
     for(var i = 0; i<data.length; i++) {
         var titleIdMod = titleId;
         titleIdMod += i;
@@ -20,5 +21,9 @@ function buildLatestNewsFlow(data) {
         var textIdMod = textId;
         textIdMod += i;
         $(textIdMod).append(data[i].article);
+
+        var dateIdMod = dateId;
+        dateIdMod =+ i;
+        $(dateIdMod).append(data[i].date);
     }
 }
