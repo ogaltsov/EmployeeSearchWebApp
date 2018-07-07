@@ -18,9 +18,9 @@ _______________________________________________
 * Deploy **.war** on Tomcat etc.
 _______________________________________________
 ###### To do:
-* Replace specific implementations with interfaces
-* Handle possible exceptions(server-side, JS, HTML-inection)
-* Case-insensitive search (DONE)
-* Create messages for wrong search request("null-form(DONE)", "there are no employee")
-* main page send number of latest news by AJAX(now it hardcoded 5)
-* inject page domain using properties
+- [ ] Replace specific implementations with interfaces
+- [ ] Handle possible exceptions(server-side, JS, HTML-inection)
+- [x] Case-insensitive search
+- [ ] Create messages for wrong search request("null-form(DONE)", "there are no employee")
+- [ ] main page send number of latest news by AJAX(now it hardcoded for 5)
+- [ ] inject page domain using properties
