@@ -61,10 +61,18 @@
                     <p class="lead">Enter information about employee and the search returns matches</p>
                     <div align="center" class="form-inline">
                         <form class="form" id="form">
-                            <input type=text class="form-control input-lg" id="firstName" placeholder="First name">
-                            <input type="text" class="form-control input-lg" id="secondName" placeholder="Second name">
-                            <input type="text" class="form-control input-lg" id="position" placeholder="Position">
-                            <input type="text" class="form-control input-lg" id="department" placeholder="Department">
+                            <input type=text class="form-control input-lg"
+                                   id="firstName" placeholder="First name"
+                                    maxlength="100">
+                            <input type="text" class="form-control input-lg"
+                                   id="secondName" placeholder="Second name"
+                                   maxlength="100">
+                            <input type="text" class="form-control input-lg"
+                                   id="position" placeholder="Position"
+                                   maxlength="100">
+                            <input type="text" class="form-control input-lg"
+                                   id="department" placeholder="Department"
+                                   maxlength="100">
 
                             <button type="button" id="bth-search"
                                     class="btn btn-lg btn-default"
