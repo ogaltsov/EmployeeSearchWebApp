@@ -15,8 +15,9 @@ function ajaxRequest(selector) {
     TBody.innerHTML = "";
 
     $(document).ready(function() {
+        document.getElementById('errorNullForm').style.display ='none';
+        document.getElementById('errorNoMatches').style.display ='none';
         if(isArrEmpty(arrOfInput).length>0) {
-            document.getElementById('msgInput').style.display ='none';
             $.ajax({
                 url: url + "?" + "firstName=" + firstName + "&secondName=" + secondName + "&position=" + position + "&department=" + department
             }).then(function (data) {
@@ -32,11 +33,16 @@ function ajaxRequest(selector) {
                 console.log(myList);
                 myList = arr;
                 console.log(myList);
-                buildHtmlTable(selector)
+                if(arr.length==0){
+                    document.getElementById('errorNoMatches').style.display ='block';
+                }
+                else {
+                    buildHtmlTable(selector)
+                }
             });
         }
         else {
-            document.getElementById('msgInput').style.display ='block';
+            document.getElementById('errorNullForm').style.display ='block';
         }
     });
     return false;

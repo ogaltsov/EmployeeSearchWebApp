@@ -17,9 +17,9 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
-    <bean id="userDao" class="dao.UserDao" />
-    <bean id="dao" class="dao.EmployeeDao"/>
-    <bean id="newsDao" class="dao.NewsDao" />
+
+    <bean id="employeeDao" class="dao.EmployeeDao"/>
+
 
 
 

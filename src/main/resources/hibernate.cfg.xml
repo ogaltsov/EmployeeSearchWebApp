@@ -4,7 +4,7 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <property name="connection.url">jdbc:sqlite:/Applications/IntelliJ IDEA.app/Contents/bin/employees.sqlite</property>
+        <property name="connection.url">jdbc:sqlite:src/main/resources/database/employees.sqlite</property>
         <property name="dialect">com.enigmabridge.hibernate.dialect.SQLiteDialect</property>
         <property name="connection.driver_class">org.sqlite.JDBC</property>
         <property name="connection.pool_size">8</property>
@@ -13,11 +13,6 @@
         <mapping class="web.model.Employee"/>
         <mapping resource="Employee.hbm.xml"/>
 
-        <mapping class="web.model.User"/>
-        <mapping resource="User.hbm.xml"/>
-
-        <mapping class="web.model.News"/>
-        <mapping resource="News.hbm.xml"/>
 
 
         
