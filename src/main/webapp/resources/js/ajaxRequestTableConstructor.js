@@ -1,9 +1,10 @@
 var myList = [{}];
 var arr = [{}];
-var url = "http://localhost:8080/corpsite.com/search/check";
+var url;
 
-function ajaxRequest(selector) {
-
+function ajaxRequest(selector, siteUrl ) {
+    console.log(siteUrl);
+    url = siteUrl;
     var firstName = $("#firstName").val();
     var secondName = $("#secondName").val();
     var position = $("#position").val();
@@ -17,6 +18,8 @@ function ajaxRequest(selector) {
     $(document).ready(function() {
         document.getElementById('errorNullForm').style.display ='none';
         document.getElementById('errorNoMatches').style.display ='none';
+        ///////
+        console.log(url);
         if(isArrEmpty(arrOfInput).length>0) {
             $.ajax({
                 url: url + "?" + "firstName=" + firstName + "&secondName=" + secondName + "&position=" + position + "&department=" + department
@@ -51,8 +54,6 @@ function ajaxRequest(selector) {
 
 // Builds the HTML Table out of myList.
 function buildHtmlTable(selector) {
-
-
 
     var columns = addAllColumnHeaders(myList, selector);
 

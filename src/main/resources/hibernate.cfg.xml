@@ -9,18 +9,16 @@
         <property name="connection.driver_class">org.sqlite.JDBC</property>
         <property name="connection.pool_size">8</property>
         <property name="hibernate.c3p0.timeout">0</property>
-
-        <mapping class="web.model.Employee"/>
-        <mapping resource="Employee.hbm.xml"/>
-
-
-
-        
-
         <!-- <property name="connection.username"/> -->
         <!-- <property name="connection.password"/> -->
 
         <!-- DB schema will be updated if needed -->
         <!-- <property name="hbm2ddl.auto">update</property> -->
+
+
+        <mapping class="model.Employee"/>
+        <mapping resource="Employee.hbm.xml"/>
+
+
     </session-factory>
 </hibernate-configuration>

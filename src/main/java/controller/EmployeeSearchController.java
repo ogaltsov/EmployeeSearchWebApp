@@ -1,4 +1,4 @@
-package web.controller;
+package controller;
 
 import dao.EmployeeDao;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,13 +8,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
-import web.model.Employee;
-import web.model.ListToJsonArray;
-import web.model.SearchQuery;
+import model.Employee;
+import model.ListToJsonArray;
+import model.SearchQuery;
 
 
 @Controller
-@RequestMapping("/search")
 public class EmployeeSearchController {
     @Autowired
     private EmployeeDao dao;
@@ -47,7 +46,7 @@ public class EmployeeSearchController {
 //        return (Employee) dao.searchEmployee(searchQuery).get(0);
 //    }
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+    @RequestMapping(value = "/search", method = RequestMethod.GET)
     public ModelAndView mainPage() {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("searchPage");

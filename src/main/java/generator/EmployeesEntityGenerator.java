@@ -1,7 +1,7 @@
 package generator;
 
 import dao.EmployeeDao;
-import web.model.Employee;
+import model.Employee;
 
 import java.io.*;
 

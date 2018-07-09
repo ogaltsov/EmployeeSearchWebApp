@@ -1,4 +1,4 @@
-package web.model;
+package model;
 
 
 public class SearchQuery {
@@ -32,19 +32,6 @@ public class SearchQuery {
         return department;
     }
 
-    @Override
-    public String toString() {
-        return "SearchQuery{" +
-                "firstName='" + firstName + '\'' +
-                ", secondName='" + secondName + '\'' +
-                ", position='" + position + '\'' +
-                ", department='" + department + '\'' +
-                '}';
-    }
-
-    ///////
-
-
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
@@ -59,5 +46,15 @@ public class SearchQuery {
 
     public void setDepartment(String department) {
         this.department = department;
+    }
+
+    @Override
+    public String toString() {
+        return "SearchQuery{" +
+                "firstName='" + firstName + '\'' +
+                ", secondName='" + secondName + '\'' +
+                ", position='" + position + '\'' +
+                ", department='" + department + '\'' +
+                '}';
     }
 }

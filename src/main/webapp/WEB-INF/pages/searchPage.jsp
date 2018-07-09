@@ -1,4 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+<spring:eval expression="@propertyConfigurer.getProperty('application.properties')" />
 
 <!DOCTYPE html>
 <html lang="en">
@@ -20,19 +22,15 @@
 <div class="pageContainer" id="wrapper">
     <div id="top">
         <header id="header">
-            <div class="one-fourth">
-                <div class="logo"><a href="/corpsite.com/"><img src="/resources/images/logo.png" alt="" /></a></div>
-            </div><!--end one-fourth-->
-
             <div class="three-fourth column-last">
                 <nav id="navigation">
                     <ul id="mainnav">
-                        <li><a href="/corpsite.com/search/">MAIN</a></li>
-                        <li><a href="/corpsite.com/search/">NEWS</a></li>
-                        <li><a href="/corpsite.com/search/">EMPLOYEES</a></li>
-                        <li><a href="/corpsite.com/search/">REQUESTS</a></li>
-                        <li><a href="/corpsite.com/search/">CONTACTS</a></li>
-                        <li><a class="current" href="/corpsite.com/search/">LOGIN</a></li>
+                        <li><a href="/corpsite.com/search">MAIN</a></li>
+                        <li><a href="/corpsite.com/search">NEWS</a></li>
+                        <li><a href="/corpsite.com/search">EMPLOYEES</a></li>
+                        <li><a href="/corpsite.com/search">REQUESTS</a></li>
+                        <li><a href="/corpsite.com/search">CONTACTS</a></li>
+                        <li><a class="current" href="/corpsite.com/search">LOGIN</a></li>
                     </ul>
                 </nav><!--end navigation-->
             </div><!--end three-fourth-->
@@ -42,7 +40,7 @@
             <div class="double-separator"></div>
             <div class="breadcrumbs">
                 <div class="one-half alignleft">
-                    <a href="/corpsite.com/search/">Home</a>
+                    <a href="/corpsite.com/search">Home</a>
                 </div>
 
                 <div class="one-half column-last alignright">
@@ -70,7 +68,11 @@
 
                             <button type="button" id="bth-search"
                                     class="btn btn-lg btn-default"
-                                    onclick="return ajaxRequest('#tableBody')">Search</button>
+                                    onclick="return ajaxRequest('#tableBody',
+                                                                '<spring:eval expression="@propertyConfigurer.getProperty('domain')"/>' +
+                                                                '<spring:eval expression="@propertyConfigurer.getProperty('catalog')" />'+
+                                                                '<spring:eval expression="@propertyConfigurer.getProperty('checkEmployee')" />')">
+                                Search</button>
                         </form>
                     </div>
 
@@ -85,22 +87,15 @@
                             </tbody>
                         </table>
                     </div>
-
                 </div>
-
-
-
             </div>
         </div>
-
     </div><!--end centered-wrapper-->
 
     <div class="centered-wrapper">
-
         <footer id="footer">
             <div class="double-separator"></div>
         </footer><!--end footer-->
-
     </div><!--end centered-wrapper-->
 </div>
 </body>

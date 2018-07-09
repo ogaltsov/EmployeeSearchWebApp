@@ -1,13 +1,13 @@
 package dao;
 
-import web.model.Employee;
+import model.Employee;
 
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Restrictions;
 import services.HibernateSessionFactory;
-import web.model.SearchQuery;
+import model.SearchQuery;
 import javax.persistence.PersistenceException;
 import java.io.Serializable;
 import java.util.List;
@@ -17,11 +17,11 @@ public class EmployeeDao {
 
     private SessionFactory sessionFactory = HibernateSessionFactory.getSessionFactory();
 
-    public void saveObject(Object object) {
+    public void saveObject(Employee employee) {
         try {
             Session session = sessionFactory.openSession();
             session.beginTransaction();
-            session.save(object);
+            session.save(employee);
             session.getTransaction().commit();
             session.close();
         } catch (PersistenceException e) {
@@ -29,18 +29,18 @@ public class EmployeeDao {
         }
     }
 
-    public Object getObject(Class classOfEntity, Serializable primaryKey) { //throws PersistenceException
+    public Employee getEmployee(Serializable primaryKey) { //throws PersistenceException
         Session session = sessionFactory.openSession();
-        Object object = session.get(classOfEntity, primaryKey);
+        Employee employee = session.get(Employee.class, primaryKey);
         session.close();
-        return object;
+        return employee;
     }
 
-    public void saveOrUpdateObject(Object object) {
+    public void saveOrUpdateEmployee(Employee employee) {
         try {
             Session session = sessionFactory.openSession();
             session.beginTransaction();
-            session.saveOrUpdate(object);
+            session.saveOrUpdate(employee);
             session.getTransaction().commit();
             session.close();
         } catch (PersistenceException e) {
@@ -49,11 +49,11 @@ public class EmployeeDao {
         }
     }
 
-    public void deleteObject(Object object) {
+    public void deleteEmployee(Employee employee) {
         try {
             Session session = sessionFactory.openSession();
             session.beginTransaction();
-            session.delete(object);
+            session.delete(employee);
             session.getTransaction().commit();
             session.close();
         } catch (PersistenceException e) {
@@ -97,7 +97,6 @@ public class EmployeeDao {
             return null;
         }
     }
-
 
     public void shutdown(){
         HibernateSessionFactory.shutdown();
