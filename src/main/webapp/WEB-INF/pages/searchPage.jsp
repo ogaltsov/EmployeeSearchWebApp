@@ -14,28 +14,11 @@
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="<c:url value="/resources/css/tableStyle.css" />" rel="stylesheet">
     <script src="<c:url value="/resources/js/ajaxRequestTableConstructor.js" />"></script>
-    <script src="<c:url value="/resources/js/custom.js"/>"></script>
-
 </head>
 
 <body>
 <div class="pageContainer" id="wrapper">
     <div id="top">
-        <header id="header">
-            <div class="three-fourth column-last">
-                <nav id="navigation">
-                    <ul id="mainnav">
-                        <li><a href="/corpsite.com/search">MAIN</a></li>
-                        <li><a href="/corpsite.com/search">NEWS</a></li>
-                        <li><a href="/corpsite.com/search">EMPLOYEES</a></li>
-                        <li><a href="/corpsite.com/search">REQUESTS</a></li>
-                        <li><a href="/corpsite.com/search">CONTACTS</a></li>
-                        <li><a class="current" href="/corpsite.com/search">LOGIN</a></li>
-                    </ul>
-                </nav><!--end navigation-->
-            </div><!--end three-fourth-->
-        </header>
-
         <section class="page-title">
             <div class="double-separator"></div>
             <div class="breadcrumbs">
