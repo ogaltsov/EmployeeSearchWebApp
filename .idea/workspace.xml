@@ -82,26 +82,26 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2490">
-              <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
+            <state relative-caret-position="15">
+              <caret line="215" column="1" selection-start-line="215" selection-start-column="1" selection-end-line="215" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajaxRequestTableConstructor.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ajaxRequestTableConstructor.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/ajaxRequestTableConstructor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-end-line="95" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="searchPage.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="searchPage.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/searchPage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="51" column="48" lean-forward="true" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
+            <state relative-caret-position="360">
+              <caret line="72" column="24" lean-forward="true" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -109,8 +109,8 @@
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -208,8 +208,8 @@
         <option value="$PROJECT_DIR$/src/main/java/AppMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/SearchQuery.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/spring/spring-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/searchPage.jsp" />
       </list>
@@ -618,7 +618,7 @@
       <workItem from="1530776524978" duration="2929000" />
       <workItem from="1530782828458" duration="12870000" />
       <workItem from="1530971414478" duration="394000" />
-      <workItem from="1531122134056" duration="11849000" />
+      <workItem from="1531122134056" duration="13791000" />
     </task>
     <task id="LOCAL-00001" summary="criteria query">
       <created>1529698352387</created>
@@ -739,11 +739,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531139058236</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="remove useless elements">
+      <created>1531140680596</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1531140680596</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168993000" />
+    <option name="totallyTimeSpent" value="170935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -765,12 +772,12 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32969698" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.4278788" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.4278788" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.32969698" />
       <window_info id="Persistence" order="2" sideWeight="0.27515152" side_tool="true" weight="0.27181688" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7248485" visible="true" weight="0.27181688" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7248485" visible="true" weight="0.27181688" />
       <window_info anchor="right" id="Bean Validation" order="4" weight="0.3297568" />
       <window_info id="Web" order="2" sideWeight="0.50094515" side_tool="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49791667" weight="0.3151515" />
@@ -842,7 +849,8 @@
     <MESSAGE value="properties" />
     <MESSAGE value="unuseful styles was deleted" />
     <MESSAGE value="maxlength input" />
-    <option name="LAST_COMMIT_MESSAGE" value="maxlength input" />
+    <MESSAGE value="remove useless elements" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove useless elements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1173,20 +1181,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/ajaxRequestTableConstructor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2490">
-          <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1208,17 +1202,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="215" column="1" selection-start-line="215" selection-start-column="1" selection-end-line="215" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/searchPage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="51" column="48" lean-forward="true" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
+        <state relative-caret-position="360">
+          <caret line="72" column="24" lean-forward="true" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/ajaxRequestTableConstructor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-end-line="95" selection-end-column="1" />
         </state>
       </provider>
     </entry>

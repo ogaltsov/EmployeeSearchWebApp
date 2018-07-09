@@ -5,10 +5,10 @@ var url;
 function ajaxRequest(selector, siteUrl ) {
     console.log(siteUrl);
     url = siteUrl;
-    var firstName = $("#firstName").val();
-    var secondName = $("#secondName").val();
-    var position = $("#position").val();
-    var department = $("#department").val();
+    var firstName = encodeURIComponent($("#firstName").val());
+    var secondName = encodeURIComponent($("#secondName").val());
+    var position = encodeURIComponent($("#position").val());
+    var department = encodeURIComponent($("#department").val());
 
     var arrOfInput =  [firstName,secondName,position, department];
 

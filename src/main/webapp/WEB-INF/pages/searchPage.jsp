@@ -62,7 +62,7 @@
                                     onclick="return ajaxRequest('#tableBody',
                                                                 '<spring:eval expression="@propertyConfigurer.getProperty('domain')"/>' +
                                                                 '<spring:eval expression="@propertyConfigurer.getProperty('catalog')" />'+
-                                                                '<spring:eval expression="@propertyConfigurer.getProperty('checkEmployee')" />')">
+                                                                '/check')">
                                 Search</button>
                         </form>
                     </div>
